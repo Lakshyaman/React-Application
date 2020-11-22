@@ -1,7 +1,15 @@
 import React from 'react'
 
-const person = () => {
-    return <p> Hi, I'm a Person!</p>
-}
+const person = props  => {
+    //return <p> Hi, I'm a Person!</p>
+
+    //Random(Dynamic Content)
+    return (
+        <div>
+            <p>I'm a {props.name} and I am {props.age} years old</p>
+            <p>{props.children}</p>
+        </div>
+    )
+};
 
 export default person;
