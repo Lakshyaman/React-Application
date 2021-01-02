@@ -1,2 +1,2 @@
 # React-Application
-Complete Understandingo  of React
+Complete Understanding of React
